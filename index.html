@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavya Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- font-awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="bg-dark shadow-sm fixed-top bg-white" id="main-head">
+    <nav class="navbar navbar-expand-lg navbar-light container" id="navbar-id">
+      <!-- <a class="navbar-brand fw-bold" href="#hero">Kavya B</a> -->
+      <a class="navbar-brand d-flex align-items-center" href="#hero">
+        <img src="assets/icons/logo.ico" alt="Logo" width="40" height="40" class="me-3 rounded-circle" />
+        <span class="lead kvy fw-bold">Kavya B</span>
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main data-bs-target="#navbar-id" data-bs-spy="scroll" data-bs-offset="0" tabindex="0">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section d-flex align-items-center text-center bg-light" style="min-height: 100vh">
+      <div class="container">
+        <h1 class="display-4">
+          Hi, I'm <span class="text-primary fw-bold">Kavya B</span>
+        </h1>
+        <p class="lead">
+          Creative Web Developer | React + Node + Vue Enthusiast
+        </p>
+        <a href="#projects" class="btn btn-primary btn-lg mt-3 btn-style rounded-pill">View My Work</a>
+      </div>
+    </section>
+
+    <section id="about" class="about py-5 bg-light">
+      <div class="container">
+        <header class="py-5 text-center  my-2">
+          <h2 class="display-4 mb-5 gradient-text">About Me</h2>
+        </header>
+        <div class="container mt-3">
+          <aside class="row align-items-center abt-aside py-1 g-0">
+            <figure class="col-lg-5 col-12 d-flex justify-content-center">
+              <img src="./images/kavya.jpeg" alt="profile pic" class="rounded-circle img-fluid fixed-circle" />
+            </figure>
+            <div class="col-lg-7 col-12 d-flex justify-content-center align-items-center text-center text-md-start">
+
+
+              <div class="d-flex flex-column align-items-center align-items-md-start">
+                <p class="lead">
+                  Im a passionate Web developer with strong expertise in web
+                  applications, REST APIs, and state management solutions. Proven
+                  track record in delivering cutting-edge solutions, including API
+                  integration, third-party libraries, and performance
+                  optimization. Adept at debugging to ensure high-quality,
+                  responsive apps and An agile collaborator committed to staying
+                  current with industry trends. If you're seeking a skilled web
+                  developer to breathe life into your project and exceed your
+                  expectations, I am here to collaborate and create magic
+                  together. Reach out, and let's transform your vision into a
+                  reality!
+                </p>
+
+                <div class="d-flex flex-wrap gap-3 justify-content-center mt-1 mb-4">
+                  <div class="icon-circle">
+                    <i class="devicon-html5-plain colored fs-4"></i>
+                  </div>
+                  <div class="icon-circle">
+                    <i class="devicon-css3-plain colored fs-4"></i>
+                  </div>
+                  <div class="icon-circle">
+                    <i class="devicon-javascript-plain colored fs-4"></i>
+                  </div>
+                  <div class="icon-circle">
+                    <i class="devicon-vuejs-plain colored fs-4"></i>
+                  </div>
+                  <div class="icon-circle">
+                    <i class="devicon-react-original colored fs-4"></i>
+                  </div>
+                  <div class="icon-circle">
+                    <i class="devicon-mongodb-plain colored fs-4"></i>
+                  </div>
+                </div>
+
+                <!-- resume download  -->
+                <a href="/assets/files/Kavya B_Resume.pdf" class="btn btn-primary btn-style px-4 py-2 rounded-pill"
+                  download>
+                  Download Resume <i class=" mx-2 fas fa-download me-2"></i></a>
+                <!-- resume download  -->
+              </div>
+
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- skill section  -->
+    <section id="skills" class="py-5 bg-light">
+      <div class="container my-5">
+        <h2 class="text-center  mb-5 display-4 gradient-text">My Skills</h2>
+        <div class="row gy-5">
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card  h-100">
+              <div class="card-header lead  text-light bg-dark">FrontEnd</div>
+              <div class="card-body">
+
+                <p class="mb-1">HTML</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-html-color" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                    aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+
+                <p class="mb-1">CSS</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-css-color" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+
+                <p class="mb-1">JavaScript</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-js-color" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                    aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+
+                <p class="mb-1">Vue.js</p>
+                <div class="progress">
+                  <div class="progress-bar bg-vue-color" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                    aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card  h-100">
+              <div class="card-header lead text-light bg-dark">BackEnd</div>
+              <div class="card-body">
+
+                <p class="mb-1">Laravel</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-lrvl-color" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                    aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+
+                <p class="mb-1">PHP</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-php-color" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card  h-100">
+              <div class="card-header lead text-light bg-dark">Databases & Tools</div>
+              <div class="card-body">
+
+                <p class="mb-1">MongoDB</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-mongo-color" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                    aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+
+                <p class="mb-1">Oracle DB</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-oracle-color" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+
+                <p class="mb-1">Git & GitHub</p>
+                <div class="progress mb-3">
+                  <div class="progress-bar bg-git-color" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- project section  -->
+    <section id="projects" class="py-5 bg-light">
+      <div class="container my-5">
+        <h2 class="text-center  mb-5 display-4 gradient-text">Projects</h2>
+
+        <div class="row g-lg-5 gy-5">
+          <!-- Project Card 1 -->
+          <div class="col-md-4 col-12">
+            <div class="card h-100">
+              <img src="images/flight.webp" class="card-img-top" alt="Airline Flight Reservation and Booking System">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Airline Flight Reservation and Booking System</h5>
+                <p class="card-text p-2">This website help users to book flight tickets easily.</p>
+              </div>
+              <div class="card-footer text-center text-md-start">
+                <a href="https://github.com/kavyab96/airline_flight_reservation" target="_blank"
+                  class="btn btn-outline-primary" title="View on GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="col-md-4 col-12">
+            <div class="card h-100">
+              <img src="images/failure-prediction.jpg" class="card-img-top image-fluid"
+                alt=" Prediction of Failure Analysis In Cloud Using Machine Learning Algorithms">
+              <div class="card-body">
+                <h5 class="card-title fw-bold"> Prediction of Failure Analysis In Cloud</h5>
+                <p class="card-text p-2"> This software is developed to predict failure rate of
+                  file-uploading and file-downloading from cloud services.</p>
+              </div>
+              <div class="card-footer text-center text-md-start">
+                <a href="#" target="_blank" class="btn btn-outline-dark btn btn-secondary  disabled"> <i
+                    class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="col-md-4 col-12">
+            <div class="card h-100">
+              <img src="images/bus-ticket-book-online.webp" class="card-img-top image-fluid" alt="Bus Booking system">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Bus Booking system</h5>
+                <p class="card-text p-2">Bus Booking system is a website for booking bus for travel.</p>
+              </div>
+              <div class="card-footer text-center text-md-start">
+                <a href="#" target="_blank" class="btn btn-outline-dark btn btn-secondary  disabled"> <i
+                    class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- contact section  -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container my-5">
+        <h2 class="text-center mb-5 display-4 gradient-text">Contact Me</h2>
+        <div class="p-4">
+          <div class="row d-flex align-items-center justify-content-center ">
+            <div class=" col-7 glass-container">
+              <form class="mt-4 ">
+                <div class="form-input-items mb-4 ">
+                  <label for="name" class="form-label">Name</label><span class="text-danger">*</span>
+                  <input class="form-control py-2" type="text" placeholder="Name" name="name" id="name" required
+                    pattern="[a-zA-Z ]+" title="Only letters and spaces are allowed" />
+                </div>
+
+                <div class="form-input-items mb-4">
+                  <label for="email" class="form-label">Email</label><span class="text-danger">*</span>
+                  <input class="form-control py-2" type="email" placeholder="E-mail" name="email" id="email" required />
+                </div>
+
+                <div class="form-input-items mb-4">
+                  <label for="message" class="form-label">Message</label>
+                  <span class="text-danger">*</span>
+                  <textarea placeholder="Message" class="form-control py-2" name="message" id="message" required
+                    rows="2"></textarea>
+                </div>
+
+                <div class="col-12 text-center mt-4 mb-4">
+                  <button class="btn btn-primary btn-style py-md-3 px-md-5 mt-md-4 rounded-pill" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-light p-3">
+    <div class="container text-center d-flex flex-column align-items-center justify-content-center">
+      <h6 class="">
+        <p>&copy; 2025 kavyab portfolio</p>
+
+      </h6>
+      <div class="d-flex align-items-center gap-3">
+        <a href="https://github.com/kavyab96" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github fa-2x" style="font-size: 1.6rem; color:#0A66C2;"></i>
+        </a>
+        <a href="https://linkedin.com/in/kavyab96" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin fa-2x" style="font-size: 1.6rem; color:#0A66C2;"></i>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

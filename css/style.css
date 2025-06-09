@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  /* --gradient-color: linear-gradient(45deg,#0cffff 0%,  #dc00d3 15%,#100425 100%); */
+  --gradient-color: linear-gradient(45deg,#0cffff 30%,  #dc00d3 50%,#100425 100%);
+  --hero-bg-color: linear-gradient(to right, #ffffff, #fdffff,#bcfdf9);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom overrides */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#main-head,#projects,#contact {
+ background: var(--hero-bg-color);
+}
+#about,#skills{
+  background: linear-gradient(to right, #ffffff);
+}
+
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #0d6efd !important;
+  
+}
+.kvy{
+   font-size:1.1rem;
+   background: linear-gradient(45deg, #7c73f8 50%,#6a19f6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+   color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.hero-section {
+  
+  background: var(--hero-bg-color);/* Soft blue gradient */
+  
+}
+
+.gradient-text {
+  font-size: 3.5rem;
+  background:var(--gradient-color); /* Your gradient colors */
+
+   background-clip: text;
+  -webkit-background-clip: text;
+   color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.btn-style{
+    background:linear-gradient(45deg,#0cffff 0%,  #dc00d3 100%,#100425 0%);
+}
+
+
+ /* about  */
+.about img{
+    width:300px;
+    height:300px;
+}
+.abt-aside p{
+    max-width:90%;
+    height: auto;
+}
+
+/*********************************/
+
+
+/* skill */
+.bg-html-color{
+  background-color: #a075e3;
+}
+.bg-css-color{
+  background-color: #622cb8;
+}
+.bg-vue-color{
+  background-color: #677eef;
+}
+.bg-js-color{
+  background-color: #276dd6;
+}
+.bg-lrvl-color{
+  background-color: #d27fee; 
+}
+.bg-php-color{
+  background-color: #9d45a9; 
+}
+
+.bg-mongo-color{
+  background-color: #74d6e1; 
+}
+
+.bg-oracle-color{
+  background-color: #4eadd5; 
+}
+
+.bg-git-color{
+  background-color: #65afe0; 
+}
+
+
+.icon-circle {
+  background-color: rgba(218, 221, 207, 0.6); 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid hsla(0, 50%, 97%, 0.808); 
+  backdrop-filter: blur(6px); 
+  -webkit-backdrop-filter: blur(6px); 
+  
+  box-shadow: 0 4px 10px rgba(250, 245, 245, 0.792);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.icon-circle:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+
+.glass-container {
+  background-color: rgba(255, 255, 255, 0.1);  /* Light glassy layer */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);   
+}
+.fixed-circle {
+  width: 80px;      
+  height: 80px;     
+  object-fit: cover;  
+}
